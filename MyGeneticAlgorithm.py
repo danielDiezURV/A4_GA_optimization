@@ -52,13 +52,13 @@ class MyGeneticAlgorithm:
     optimal_fitness = None
     optimal_chromosome = []
     ####################################
-    
+
     def __init__(self,fitness_function, selection_algorithm, crossover_scheme):
         optimal_fitness = None
         optimal_chromosome = []
-        self.selected_fitness = self.fitness_functions(fitness_function)
-        self.selected_algorithm = self.selection_Algorithms(selection_algorithm)
-        self.selected_crossover = self.crossover_schemes(crossover_scheme)
+        self.selected_fitness = self.fitness_functions[fitness_function]
+        self.selected_algorithm = self.selection_Algorithms[selection_algorithm]
+        self.selected_crossover = self.crossover_schemes[crossover_scheme]
 
     def run(self, graph, population, generations, mutation_rate, has_elitism):
         #Initialize population P
