@@ -1,17 +1,25 @@
 import tsplib95
 
 class TspFunctions:
-    
+
     problem = None
 
     def __init__(self, filepath):
-        self.problem = tsplib95.load(filepath)
+        self.problem = tsplib95.load(filepath, special=tsplib95.models.StandardProblem)
 
     def get_nodes(self):
         return self.problem.dimension
     
     def get_distance(self, start, end):
         return self.problem.get_weight(start, end)
+    
+    def get_total_distance(self, path):
+        total_distance = sum(self.get_distance(path[i], path[i + 1]) for i in range(0, len(path) -1))
+        total_distance += self.get_distance(path[-1], path[0])
+        return total_distance
+    
+    def get_name(self):
+        return self.problem.name
 
     def get_graph(self):
         return self.problem.get_graph()
