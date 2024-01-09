@@ -76,20 +76,25 @@ class MyGeneticAlgorithm:
     ####################################
 
     def __init__(self,fitness_function, selection_algorithm, crossover_scheme):
-        optimal_fitness = None
-        optimal_chromosome = []
         self.selected_fitness = self.fitness_functions[fitness_function]
         self.selected_algorithm = self.selection_Algorithms[selection_algorithm]
         self.selected_crossover = self.crossover_schemes[crossover_scheme]
 
     def run(self, tsp, population, generations, mutation_rate, elitism_rate = 0):
+        self.optimal_fitness = 0
+        self.optimal_chromosome = []
         self.tsp = tsp
+        ga_logs = {"test": tsp.get_name(),
+                   "args": {"population": population, "generations": generations, "mutation_rate": mutation_rate, "elitism_rate": elitism_rate},
+                   "evolution": [],
+                   "bestResult": {"fitness": 0, "chromosome": [], "distance": 0}
+                }
         #Initialize population P
         p = self.Initialize_population(population)
         #Evaluate fitness of all individuals in P
         fitness = self.evaluateFitness(p)
         #For each generation
-        for _ in range(generations):
+        for i in range(generations):
             p_d = []                                        #P' = {}
             #For each pair in Population
             for _ in range(int(population/2)):
@@ -109,11 +114,16 @@ class MyGeneticAlgorithm:
             p = p_d
             #Evaluate fitness of all individuals in P
             fitness = self.evaluateFitness(p)
-            fitness = fitness.sort()
-            print(fitness, " ---- ", p)
+            ga_logs["evolution"].append("[Generation: "+ str(i)+"] ---> fitness: "+ str(round(max(fitness), 6)) +" --- chromosome: " + str(p[fitness.index(max(fitness))]) +" --- distance: " + str(self.tsp.get_total_distance(p[fitness.index(max(fitness))])))
+            #Update optimal fitness and chromosome
+            if max(fitness) > self.optimal_fitness: 
+                self.optimal_fitness = max(fitness)
+                self.optimal_chromosome = p[fitness.index(max(fitness))]
         #Return best individual in P
-        p.sort(key=lambda x: self.tsp.get_total_distance(x))
-        return p[0]
+        ga_logs["bestResult"]["fitness"] = self.optimal_fitness
+        ga_logs["bestResult"]["chromosome"] = self.optimal_chromosome
+        ga_logs["bestResult"]["distance"] = tsp.get_total_distance(self.optimal_chromosome)
+        return ga_logs
 
 
 

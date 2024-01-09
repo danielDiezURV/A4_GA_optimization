@@ -1,0 +1,191 @@
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "5081"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "4088"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "4593"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "4592"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4972"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3806"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "4064"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "4438"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4917"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3998"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "4312"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3336"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "5960"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "4501"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "4539"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "4337"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "5016"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3829"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "4837"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "4197"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "5040"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3658"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "4088"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3735"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4663"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "4673"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "4585"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "4496"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4874"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3555"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "4549"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "4336"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4930"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3876"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3717"}
+{"Test": "burma14", "Params": "{'population': 10, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "4042"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "5080"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "4455"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "4095"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "4489"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4784"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3526"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3500"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "4068"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4184"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3834"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3442"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3735"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4570"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "4405"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "3798"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "3986"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4549"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3637"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3701"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "3978"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4849"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3446"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3635"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "4270"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4817"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "3727"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "3692"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "3610"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4379"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "4704"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3371"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "3912"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4170"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3603"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3893"}
+{"Test": "burma14", "Params": "{'population': 20, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3390"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4932"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "3575"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "3620"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "4002"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4611"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3381"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3323"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "3664"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4634"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3584"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3346"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 50, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3371"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4778"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "3706"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "3733"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "3565"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4005"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3979"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3664"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "3610"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4277"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3958"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3336"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 100, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3446"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0}", "BestDistance": "4259"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.1}", "BestDistance": "3577"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.3}", "BestDistance": "3336"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.1, 'elitism_rate': 0.5}", "BestDistance": "3388"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0}", "BestDistance": "4227"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.1}", "BestDistance": "3446"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.3}", "BestDistance": "3323"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.3, 'elitism_rate': 0.5}", "BestDistance": "3448"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0}", "BestDistance": "4302"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.1}", "BestDistance": "3553"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.3}", "BestDistance": "3446"}
+{"Test": "burma14", "Params": "{'population': 50, 'generations': 200, 'mutation_rate': 0.5, 'elitism_rate': 0.5}", "BestDistance": "3765"}
+{
+    "bestResult": {
+        "test": "burma14",
+        "args": {
+            "population": 50,
+            "generations": 50,
+            "mutation_rate": 0.3,
+            "elitism_rate": 0.3
+        },
+        "evolution": [
+            "[Generation: 0] ---> fitness: 0.000186 --- chromosome: [2, 14, 6, 12, 3, 5, 9, 11, 8, 1, 10, 4, 7, 13] --- distance: 5381",
+            "[Generation: 1] ---> fitness: 0.000191 --- chromosome: [11, 8, 7, 13, 9, 2, 10, 1, 6, 3, 14, 12, 5, 4] --- distance: 5246",
+            "[Generation: 2] ---> fitness: 0.000191 --- chromosome: [11, 8, 7, 13, 9, 2, 10, 1, 6, 3, 14, 12, 5, 4] --- distance: 5246",
+            "[Generation: 3] ---> fitness: 0.000191 --- chromosome: [11, 8, 7, 13, 9, 2, 10, 1, 6, 3, 14, 12, 5, 4] --- distance: 5246",
+            "[Generation: 4] ---> fitness: 0.000213 --- chromosome: [6, 3, 9, 13, 14, 2, 1, 10, 11, 8, 7, 12, 4, 5] --- distance: 4694",
+            "[Generation: 5] ---> fitness: 0.000213 --- chromosome: [6, 3, 9, 13, 14, 2, 1, 10, 11, 8, 7, 12, 4, 5] --- distance: 4694",
+            "[Generation: 6] ---> fitness: 0.000213 --- chromosome: [6, 3, 9, 13, 14, 2, 1, 10, 11, 8, 7, 12, 4, 5] --- distance: 4694",
+            "[Generation: 7] ---> fitness: 0.000217 --- chromosome: [4, 12, 7, 10, 11, 8, 13, 9, 2, 1, 14, 3, 6, 5] --- distance: 4615",
+            "[Generation: 8] ---> fitness: 0.000217 --- chromosome: [4, 12, 7, 10, 11, 8, 13, 9, 2, 1, 14, 3, 6, 5] --- distance: 4615",
+            "[Generation: 9] ---> fitness: 0.000217 --- chromosome: [4, 12, 7, 10, 11, 8, 13, 9, 2, 1, 14, 3, 6, 5] --- distance: 4615",
+            "[Generation: 10] ---> fitness: 0.000217 --- chromosome: [4, 12, 7, 10, 11, 8, 13, 9, 2, 1, 14, 3, 6, 5] --- distance: 4615",
+            "[Generation: 11] ---> fitness: 0.000232 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 11, 13, 9, 1, 8, 10] --- distance: 4319",
+            "[Generation: 12] ---> fitness: 0.000251 --- chromosome: [2, 14, 3, 6, 4, 12, 5, 7, 13, 1, 9, 10, 11, 8] --- distance: 3983",
+            "[Generation: 13] ---> fitness: 0.000251 --- chromosome: [2, 14, 3, 6, 4, 12, 5, 7, 13, 1, 9, 10, 11, 8] --- distance: 3983",
+            "[Generation: 14] ---> fitness: 0.000251 --- chromosome: [2, 14, 3, 6, 4, 12, 5, 7, 13, 1, 9, 10, 11, 8] --- distance: 3983",
+            "[Generation: 15] ---> fitness: 0.000251 --- chromosome: [11, 8, 2, 14, 3, 6, 4, 12, 5, 7, 13, 1, 9, 10] --- distance: 3983",
+            "[Generation: 16] ---> fitness: 0.000266 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 1, 11, 8, 9, 10] --- distance: 3757",
+            "[Generation: 17] ---> fitness: 0.000266 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 1, 11, 8, 9, 10] --- distance: 3757",
+            "[Generation: 18] ---> fitness: 0.000266 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 1, 11, 8, 9, 10] --- distance: 3757",
+            "[Generation: 19] ---> fitness: 0.000274 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 8, 1, 10] --- distance: 3649",
+            "[Generation: 20] ---> fitness: 0.000274 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 8, 1, 9, 10] --- distance: 3649",
+            "[Generation: 21] ---> fitness: 0.000276 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 8, 9, 10, 1] --- distance: 3619",
+            "[Generation: 22] ---> fitness: 0.000287 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 10, 8, 1] --- distance: 3479",
+            "[Generation: 23] ---> fitness: 0.000287 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 10, 8, 1] --- distance: 3479",
+            "[Generation: 24] ---> fitness: 0.000287 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 10, 8, 1] --- distance: 3479",
+            "[Generation: 25] ---> fitness: 0.000287 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 10, 8, 1] --- distance: 3479",
+            "[Generation: 26] ---> fitness: 0.000287 --- chromosome: [2, 14, 3, 4, 6, 12, 5, 7, 13, 11, 9, 10, 8, 1] --- distance: 3479",
+            "[Generation: 27] ---> fitness: 0.000291 --- chromosome: [2, 14, 3, 4, 12, 6, 5, 7, 13, 8, 11, 9, 10, 1] --- distance: 3442",
+            "[Generation: 28] ---> fitness: 0.000291 --- chromosome: [2, 14, 3, 4, 12, 6, 5, 7, 13, 8, 11, 9, 10, 1] --- distance: 3442",
+            "[Generation: 29] ---> fitness: 0.000291 --- chromosome: [2, 14, 3, 4, 12, 6, 5, 7, 13, 8, 11, 9, 10, 1] --- distance: 3442",
+            "[Generation: 30] ---> fitness: 0.000291 --- chromosome: [2, 14, 3, 4, 12, 6, 5, 7, 13, 8, 11, 9, 10, 1] --- distance: 3442",
+            "[Generation: 31] ---> fitness: 0.000291 --- chromosome: [2, 14, 3, 4, 12, 6, 5, 7, 13, 8, 11, 9, 10, 1] --- distance: 3442",
+            "[Generation: 32] ---> fitness: 0.0003 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 11, 9, 10, 8, 1] --- distance: 3336",
+            "[Generation: 33] ---> fitness: 0.0003 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 11, 9, 10, 8, 1] --- distance: 3336",
+            "[Generation: 34] ---> fitness: 0.0003 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 11, 9, 10, 8, 1] --- distance: 3336",
+            "[Generation: 35] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 36] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 37] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 38] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 39] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 40] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 41] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 42] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 43] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 44] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 45] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 46] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 47] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 48] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323",
+            "[Generation: 49] ---> fitness: 0.000301 --- chromosome: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1] --- distance: 3323"
+        ],
+        "bestResult": {
+            "fitness": 0.0003009328919650918,
+            "chromosome": [
+                2,
+                14,
+                3,
+                4,
+                5,
+                6,
+                12,
+                7,
+                13,
+                8,
+                11,
+                9,
+                10,
+                1
+            ],
+            "distance": 3323
+        }
+    }
+}
