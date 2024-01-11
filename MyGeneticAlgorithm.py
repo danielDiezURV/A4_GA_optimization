@@ -17,7 +17,100 @@ class CrossoverSchemeEnum(Enum):
     UNIFORM = 'Uniform'
 
 
-class MyGeneticAlgorithm:
+class MyGeneticAlgorithm:    
+    #####--Selection Algorithms---#####
+    def roulette_wheel_selection(self, population, fitness):
+        total_fitness = sum(fitness)
+        probabilities = [f/total_fitness for f in fitness]
+        cumulative_probabilities = [sum(probabilities[:i+1]) for i in range(len(probabilities))]
+
+        selected_individuals = []
+        for i in range(2):
+            number = random.uniform(0, 1)
+            for j in range(len(population)-1):
+                if cumulative_probabilities[j] < number <= cumulative_probabilities[j+1]:
+                    selected_individuals.append(population[j+1])
+                    break
+            if i == len(selected_individuals):
+                selected_individuals.append(population[0])
+
+        return selected_individuals
+
+
+    def rank_selection(self, population, fitness):
+        total_fitness = sum(fitness)
+        probabilities = [f/total_fitness for f in fitness]
+        cumulative_probabilities = [sum(probabilities[:i+1]) for i in range(len(probabilities))]
+
+        selected_individuals = []
+        for i in range(2):
+            number = random.uniform(0, 1)
+            for j in range(len(population)-1):
+                if cumulative_probabilities[j] < number <= cumulative_probabilities[j+1]:
+                    selected_individuals.append(population[j+1])
+                    break
+            if i == len(selected_individuals):
+                selected_individuals.append(population[0])
+
+        return selected_individuals
+    
+    def tournament_selection(self, population, fitness):
+        selected_individuals = []
+        for i in range(2):
+            tournament_size = 5
+            tournament_population = random.sample(population, tournament_size)
+            tournament_fitness = [fitness[population.index(individual)] for individual in tournament_population]
+            selected_individuals.append(tournament_population[tournament_fitness.index(max(tournament_fitness))])
+        return selected_individuals
+    
+    selection_Algorithms = {
+        SelectionAlgorithmEnum.ROULETTE_WHEEL: roulette_wheel_selection,
+        SelectionAlgorithmEnum.RANK: rank_selection,
+        SelectionAlgorithmEnum.TOURNAMENT: tournament_selection
+    }
+    ####################################
+    
+    #####----Crossover Schemes-----#####
+    def one_point_crossover(self, pair):
+        chromosome1, chromosome2 = pair
+        length = len(chromosome1)
+        cut_point = random.randint(1, length - 1)
+        new_chromosome1 = chromosome1[:cut_point] + [item for item in chromosome2 if item not in chromosome1[:cut_point]]
+        new_chromosome2 = chromosome2[:cut_point] + [item for item in chromosome1 if item not in chromosome2[:cut_point]]
+        return [new_chromosome1, new_chromosome2]
+
+    def two_point_crossover(self, pair):
+        chromosome1, chromosome2 = pair
+        length = len(chromosome1)
+        cut_point1 = random.randint(1, length - 3)
+        cut_point2 = random.randint(cut_point1 + 1, length - 1)
+        new_chromosome1 = chromosome1[:cut_point1] + [item for item in chromosome2 if item not in chromosome1[:cut_point1] and item not in chromosome1[cut_point2:]] + chromosome1[cut_point2:]
+        new_chromosome2 = chromosome2[:cut_point1] + [item for item in chromosome1 if item not in chromosome2[:cut_point1] and item not in chromosome2[cut_point2:]] + chromosome2[cut_point2:]
+        return [new_chromosome1, new_chromosome2]
+        
+
+    def uniform_crossover(self, pair):
+        chromosome1, chromosome2 = pair
+        length = len(chromosome1)
+        new_chromosome1 = []
+        new_chromosome2 = []
+        for i in range(length):
+            if random.uniform(0, 1) < 0.5:
+                new_chromosome1.append(next(item for item in chromosome1 if item not in new_chromosome1))
+                new_chromosome2.append(next(item for item in chromosome2 if item not in new_chromosome2))
+            else:
+                new_chromosome1.append(next(item for item in chromosome2 if item not in new_chromosome1))
+                new_chromosome2.append(next(item for item in chromosome1 if item not in new_chromosome2))
+        return [new_chromosome1, new_chromosome2]
+
+        
+    crossover_schemes = {
+        CrossoverSchemeEnum.ONE_POINT: one_point_crossover,
+        CrossoverSchemeEnum.TWO_POINT: two_point_crossover,
+        CrossoverSchemeEnum.UNIFORM: uniform_crossover
+    }
+    ####################################
+
     #####----Mutation Functions----#####
     def single_neighbour_mutation(self, pair, mutation_rate):
         for individual in pair:
@@ -45,99 +138,6 @@ class MyGeneticAlgorithm:
         MutationMethodEnum.SINGLE_NEIGHBOUR: single_neighbour_mutation,
         MutationMethodEnum.SINGLE_SWAP: single_swap_mutation,
         MutationMethodEnum.CHAIN: chain_mutation
-    }
-    ####################################
-    
-    #####--Selection Algorithms---#####
-    def roulette_wheel_selection(self, population, fitness):
-        total_fitness = sum(fitness)
-        probabilities = [f/total_fitness for f in fitness]
-        cumulative_probabilities = [sum(probabilities[:i+1]) for i in range(len(probabilities))]
-
-        selected_individuals = []
-        for i in range(2):
-            number = random.uniform(0, 1)
-            for j in range(len(population)-1):
-                if cumulative_probabilities[j] < number <= cumulative_probabilities[j+1]:
-                    selected_individuals.append(population[j+1])
-                    break
-            if i == len(selected_individuals):
-                selected_individuals.append(population[0])
-
-        return selected_individuals
-
-    def tournament_selection(self, population, fitness):
-        selected_individuals = []
-        for i in range(2):
-            tournament_size = 2
-            tournament_population = random.sample(population, tournament_size)
-            tournament_fitness = [fitness[population.index(individual)] for individual in tournament_population]
-            selected_individuals.append(tournament_population[tournament_fitness.index(max(tournament_fitness))])
-        return selected_individuals
-
-    def rank_selection(self, population, fitness):
-        total_fitness = sum(fitness)
-        probabilities = [f/total_fitness for f in fitness]
-        cumulative_probabilities = [sum(probabilities[:i+1]) for i in range(len(probabilities))]
-
-        selected_individuals = []
-        for i in range(2):
-            number = random.uniform(0, 1)
-            for j in range(len(population)-1):
-                if cumulative_probabilities[j] < number <= cumulative_probabilities[j+1]:
-                    selected_individuals.append(population[j+1])
-                    break
-            if i == len(selected_individuals):
-                selected_individuals.append(population[0])
-
-        return selected_individuals
-    
-    
-    selection_Algorithms = {
-        SelectionAlgorithmEnum.ROULETTE_WHEEL: roulette_wheel_selection,
-        SelectionAlgorithmEnum.TOURNAMENT: tournament_selection,
-        SelectionAlgorithmEnum.RANK: rank_selection
-    }
-    ####################################
-    
-    #####----Crossover Schemes-----#####
-    def one_point_crossover(self, pair):
-        chromosome1, chromosome2 = pair
-        length = len(chromosome1)
-        cut_point = random.randint(1, length - 1)
-        new_chromosome1 = chromosome1[:cut_point] + [item for item in chromosome2 if item not in chromosome1[:cut_point]]
-        new_chromosome2 = chromosome2[:cut_point] + [item for item in chromosome1 if item not in chromosome2[:cut_point]]
-        return [new_chromosome1, new_chromosome2]
-
-    def two_point_crossover(self, pair):
-        chromosome1, chromosome2 = pair
-        length = len(chromosome1)
-        cut_point1 = random.randint(1, length - 3)
-        cut_point2 = random.randint(cut_point1 + 1, length - 1)
-        new_chromosome1 = chromosome1[:cut_point1] + [item for item in chromosome2 if item not in chromosome1[:cut_point1] and item not in chromosome1[cut_point2:]] + chromosome1[cut_point2:]
-        new_chromosome2 = chromosome2[:cut_point1] + [item for item in chromosome1 if item not in chromosome2[:cut_point1] and item not in chromosome2[cut_point2:]] + [item for item in chromosome1 if item not in chromosome2[:cut_point1]] + chromosome2[cut_point2:]
-        return [new_chromosome1, new_chromosome2]
-        
-
-    def uniform_crossover(self, pair):
-        chromosome1, chromosome2 = pair
-        length = len(chromosome1)
-        new_chromosome1 = []
-        new_chromosome2 = []
-        for i in range(length):
-            if random.uniform(0, 1) < 0.5:
-                new_chromosome1.append(next(item for item in chromosome1 if item not in new_chromosome1))
-                new_chromosome2.append(next(item for item in chromosome2 if item not in new_chromosome2))
-            else:
-                new_chromosome1.append(next(item for item in chromosome2 if item not in new_chromosome1))
-                new_chromosome2.append(next(item for item in chromosome1 if item not in new_chromosome2))
-        return [new_chromosome1, new_chromosome2]
-
-        
-    crossover_schemes = {
-        CrossoverSchemeEnum.ONE_POINT: one_point_crossover,
-        CrossoverSchemeEnum.TWO_POINT: two_point_crossover,
-        CrossoverSchemeEnum.UNIFORM: uniform_crossover
     }
     ####################################
 
@@ -197,7 +197,7 @@ class MyGeneticAlgorithm:
             p = p_d
             #Evaluate fitness of all individuals in P
             fitness = self.evaluateFitness(p)
-            ga_logs["Evolution"].append("[Generation: "+ str(i)+"] ---> Fitness: "+ str(round(max(fitness), 6)) +" ---Chromosome: " + str(p[fitness.index(max(fitness))]) +" --- Distance: " + str(self.tsp.get_total_distance(p[fitness.index(max(fitness))])))
+            ga_logs["Evolution"].append({"Generation":str(i), "Fitness":str(round(max(fitness), 6)), "Chromosome":str(p[fitness.index(max(fitness))]),"Distance":str(self.tsp.get_total_distance(p[fitness.index(max(fitness))]))})
             #Update optimal fitness and chromosome
             if max(fitness) > self.optimal_fitness: 
                 self.optimal_fitness = max(fitness)
@@ -211,9 +211,8 @@ class MyGeneticAlgorithm:
 
 
     def Initialize_population(self, population): 
-        # Initialize population P
-        p = []
         # Generate random individuals and add them to the population
+        p = []
         for _ in range(population):
             individual = list(range(1, self.tsp.get_nodes() + 1))
             p.append(random.sample(individual, len(individual)))
